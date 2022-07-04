@@ -1,3 +1,11 @@
 .navbar-nav{
-    position: sticky;
+    position: fixed;
+}
+.slider{
+    width: auto;
+    max-width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 100px;
 }
