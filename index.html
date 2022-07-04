@@ -5,12 +5,10 @@
         <title>CÔNG TY TƯ VẤN VAS</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    </head>
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <body>
         <div>
-            <header>
+            <header id="header">
                     <!-- Navbar -->
                     <nav class="navbar navbar-expand-lg navbar-light bg-white">
                       <div class="container-fluid">
@@ -32,9 +30,17 @@
                             </li> -->
                             <li class="nav-item">
                               <a class="nav-link" href="#">TRANG CHỦ</a>
-                            </li>
+                            </li>                           
                             <li class="nav-item">
-                              <a class="nav-link" href="#">ĐẦU TƯ</a>
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  ĐẦU TƯ
+                                </a>
+                              
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#">TƯ VẤN</a>
