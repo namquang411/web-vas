@@ -20,33 +20,30 @@ html{
     display: inline-block;
 }
 
-#nav > li >a{
+#nav li a{
     text-decoration: none;
     line-height: 50px;
     padding: 0 24px;
     margin-left: 100px;
 }
-#nav .dautu{
-    position: relative;
-    display: inline-block;
-}
+
 #nav .dautu-list{
-    /* display: none; */
     position: absolute;
-    background-color: white;
+    background-color: #F5EDDC;
 }
 
-#nav .dautu-list:hover a{
+.dautu-list:hover li a{
     color: black;
-    margin-left: 130px;
     text-decoration: none;
+    background-color: #f1f1f1;
 }
+
 #nav .tuvan{
     position: relative;
     display: inline-block;
 }
 #nav .tuvan-list{
-    /* display: none; */
+    display: none;
     position: absolute;
     background-color: white;
 }
@@ -62,6 +59,7 @@ html{
     display: inline-block;
 }
 #nav .daotao-list{
+    display: none;
     position: absolute;
     background-color: white;
 }
