@@ -4,3 +4,70 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-family: inherit;
+}
+
+#header{
+    height: 50px;
+    width: auto;
+    background-color: #F5EDDC;
+}
+
+#nav li{
+    position: relative;
+    display: inline-block;
+}
+
+#nav > li >a{
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 24px;
+    margin-left: 100px;
+}
+#nav .dautu{
+    position: relative;
+    display: inline-block;
+}
+#nav .dautu-list{
+    /* display: none; */
+    position: absolute;
+    background-color: white;
+}
+
+#nav .dautu-list:hover a{
+    color: black;
+    margin-left: 130px;
+    text-decoration: none;
+}
+#nav .tuvan{
+    position: relative;
+    display: inline-block;
+}
+#nav .tuvan-list{
+    /* display: none; */
+    position: absolute;
+    background-color: white;
+}
+
+#nav .tuvan-list:hover a{
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#nav .daotao{
+    position: relative;
+    display: inline-block;
+}
+#nav .daotao-list{
+    position: absolute;
+    background-color: white;
+}
+
+#nav .daotao-list:hover a{
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
