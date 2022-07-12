@@ -1,71 +1,53 @@
-/* reset css */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html{
-    font-family: inherit;
-}
-
 #header{
-    height: 50px;
-    width: auto;
-    background-color: #F5EDDC;
+    margin: 0 auto;
 }
 
-#nav li{
-    position: relative;
+#nav {
+    height: 60px;
+    background: #CFD2CF;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+#nav #ul{
+    padding: 0 450px;
+    margin: 0;
+    margin-inline: 110px;
+}
+
+#nav #ul li{
+    background: #F5EDDC;
+    position: flex;
+    list-style: none;
     display: inline-block;
+    
 }
 
-#nav li a{
-    text-decoration: none;
-    line-height: 50px;
-    padding: 0 24px;
-    margin-left: 100px;
-}
-
-#nav .dautu-list{
-    position: absolute;
-    background-color: #F5EDDC;
-}
-
-.dautu-list:hover li a{
+#nav #ul li a{
+    display: block;
+    padding: 0 15px;
     color: black;
     text-decoration: none;
-    background-color: #f1f1f1;
+    line-height: 60px;
+    font-size: 20px;
+}
+#nav #ul li a:hover{
+    background: #CFD2CF;
 }
 
-#nav .tuvan{
-    position: relative;
-    display: inline-block;
-}
-#nav .tuvan-list{
+#nav #ul .list{
+    position: absolute;
+    top: 60px;
     display: none;
-    position: absolute;
-    background-color: white;
 }
 
-#nav .tuvan-list:hover a{
-    color: black;
-    margin-left: 20px;
-    text-decoration: none;
+#nav #ul li:hover > ul{
+    display: block;
 }
 
-#nav .daotao{
+#nav #ul .list li{
+    width: 150px;
+    float: none;
+    display: list-item;
     position: relative;
-    display: inline-block;
-}
-#nav .daotao-list{
-    display: none;
-    position: absolute;
-    background-color: white;
-}
-
-#nav .daotao-list:hover a{
-    color: black;
-    margin-left: 20px;
-    text-decoration: none;
+    right: 45px;
 }
